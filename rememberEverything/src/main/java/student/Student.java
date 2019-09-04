@@ -1,5 +1,7 @@
 package student;
 
+import jdk.javadoc.internal.doclets.toolkit.util.Group;
+
 public class Student {
     //ФИО, факультет, группа, id
     private String firstName;
@@ -14,6 +16,7 @@ public class Student {
     public void setGroup(Group group) {
         if (this.group != null) {
             this.group.getStudents();
+
         }
     }
 }
