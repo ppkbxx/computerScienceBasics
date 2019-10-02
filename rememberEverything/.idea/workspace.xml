@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2708dfea-2288-4126-8a0d-32a26d2b0464" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2708dfea-2288-4126-8a0d-32a26d2b0464" name="Default Changelist" comment="new version (2019/09/25)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/Assessment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/ControlSSWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/ControlSpreadsheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/ControlSpreadsheetException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/DateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/EnumControlSheetException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/EnumDateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/Row.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/summaryControlSpreadsheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/ControlSpreadsheetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/summaryControlSpreadsheetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rememberEverything.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/student/Student.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -32,10 +44,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="student" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="student" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="student" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -59,7 +89,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567587657766</updated>
-      <workItem from="1567608341672" duration="1414000" />
+      <workItem from="1567608341672" duration="1524000" />
+      <workItem from="1568102560280" duration="732000" />
+      <workItem from="1568189099347" duration="5414000" />
+      <workItem from="1568789571715" duration="5691000" />
+      <workItem from="1569345908150" duration="194000" />
+      <workItem from="1569389779527" duration="5503000" />
+      <workItem from="1569959173690" duration="3602000" />
+      <workItem from="1570002937344" duration="4876000" />
     </task>
     <servers />
   </component>
@@ -71,95 +108,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>rememberEverything</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new version (2019/09/25)" />
+    <option name="LAST_COMMIT_MESSAGE" value="new version (2019/09/25)" />
   </component>
 </project>

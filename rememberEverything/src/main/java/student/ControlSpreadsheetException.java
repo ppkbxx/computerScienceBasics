@@ -1,6 +1,4 @@
-package Exception;
-
-import EnumControlSheetException;
+package student;
 
 public class ControlSpreadsheetException extends Exception {
     private EnumControlSheetException error;

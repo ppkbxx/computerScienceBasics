@@ -1,4 +1,4 @@
-package Exception;
+package student;
 
 public class DateException extends Exception {
     private EnumDateException error;
